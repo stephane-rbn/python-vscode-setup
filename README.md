@@ -75,6 +75,14 @@ This extension is a wrapper around the Ruff formatter. It's a must-have if you w
 
 [![Ruff extension](img/ruff-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
 
+If you have globally installed Ruff via Homebrew, you would need to add the following settings:
+
+```json
+"ruff.path": [
+  "/opt/homebrew/bin/ruff"
+],
+```
+
 ### 6 - Python Debugger Official extension ([link](https://marketplace.visualstudio.com/items?itemName=ms-python.python))
 
 If you don't know what's a debugger, you should definitely check it out!
