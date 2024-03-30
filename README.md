@@ -10,11 +10,9 @@ If you can relate to any of the above, you are in the right place! I have found 
 
 > Disclaimer 1: I won't be covering the installation of Python or VSCode. I assume you have them installed 👌
 
-> Disclaimer 2: Let's make it simple and suppose Docker doesn't exist for now 😇
+> Disclaimer 2: I have decided to not mention extensions that haven't been updated in over 3 years.
 
-> Disclaimer 3: I have decided to not mention extensions that haven't been updated in over 3 years.
-
-> Disclaimer 4: I am not a professional developer. I am a Product Manager who codes. This guide is a result of my personal experience. It works for me and I hope it works for you too! 🤜🤛 (suggestions are welcome!)
+> Disclaimer 3: I am not a professional developer. I am a Product Manager who codes. This guide is a result of my personal experience. It works for me and I hope it works for you too! 🤜🤛 (suggestions are welcome!)
 
 ## Python related configuration (essential pack)
 
