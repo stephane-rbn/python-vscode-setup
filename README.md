@@ -48,6 +48,12 @@ Pylance is a language server for Python developed by Microsoft that provides a g
 
 [![Pylance extension](img/pylance-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
+⚠️ Please, make sure to set the Python language server to Pylance in the Python extension settings and not Jedi! ⚠️
+
+```json
+"python.languageServer": "Pylance"
+```
+
 ### 4 - Ruff: formatter for Python written in Rust ([link](https://github.com/astral-sh/ruff))
 
 Benchmark results of Ruff against other formatters showed by the author:
