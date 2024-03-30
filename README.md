@@ -48,7 +48,7 @@ Pylance is a language server for Python developed by Microsoft that provides a g
 
 [![Pylance extension](img/pylance-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
-⚠️ Please, make sure to set the Python language server to Pylance in the Python extension settings and not Jedi! ⚠️
+⚠️ Please, make sure to set the Python language server to Pylance in the Python extension settings and not Jedi! ⚠️ For some reason, mine was set to Jedi by default and messed up the intellisense.
 
 ```json
 "python.languageServer": "Pylance"
