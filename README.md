@@ -70,7 +70,7 @@ I use Ruff's [default configuration](https://docs.astral.sh/ruff/configuration/)
 # .pyproject.toml
 
 [tool.ruff.lint]
-select = ["E4", "E7", "E9", "F", "I001", "S"] # I added "I001" and "S" to the default rules
+select = ["E4", "E7", "E9", "F", "I001", "S"] # I've added "I001" and "S" to the default rules
 ```
 
 > I use [Pipenv](https://github.com/pypa/pipenv) almost for all my projects, I add Ruff in my Pipfile as a dev dependency. It should be the same with [Poetry](https://github.com/python-poetry/poetry).
