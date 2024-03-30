@@ -62,8 +62,6 @@ Benchmark results of Ruff against other formatters showed by the author:
 
 ![Ruff benchmark](img/ruff-benchmark.png)
 
-> I use [Pipenv](https://github.com/pypa/pipenv) almost for all my projects, so Ruff is added in my Pipfile as a dev dependency and should be the same with [Poetry](https://github.com/python-poetry/poetry).
-
 I used to utilize `Pylint` alongside `black`, `isort`, and `flake8`, but I've swapped them out for ruff which re-implements the latter three in Rust (check the [FAQ](https://docs.astral.sh/ruff/faq/) for more details).
 
 💯 **Pylance** and **Ruff** are the two main reasons why I don't feel the need go back to PyCharm anymore. The auto-complete and error checking just work perfectly, especially when type hints are used. 💯
@@ -76,6 +74,8 @@ I use Ruff's [default configuration](https://docs.astral.sh/ruff/configuration/)
 [tool.ruff.lint]
 select = ["E4", "E7", "E9", "F", "I001", "S"] # I added "I001" and "S" to the default rules
 ```
+
+> I use [Pipenv](https://github.com/pypa/pipenv) almost for all my projects, I add Ruff in my Pipfile as a dev dependency. It should be the same with [Poetry](https://github.com/python-poetry/poetry).
 
 ### 5 - Ruff Official extension ([link](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff))
 
