@@ -38,7 +38,7 @@ By default, to open the settings file, press `Ctrl + P` (or `cmd + P`) and type 
 "python.languageServer": "Pylance", // VERY IMPORTANT! Please recheck this setting after installing Pylance.
 "python.analysis.typeCheckingMode": "basic",
 "python.analysis.diagnosticMode": "workspace",
-"python.analysis.completeFunctionParens": true, // I regretted not enabling this setting earlier...
+"python.analysis.completeFunctionParens": true, // I regret not enabling this setting earlier...
 "python.analysis.indexing": true,
 "python.analysis.autoImportCompletions": true
 ```
