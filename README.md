@@ -56,7 +56,7 @@ Developed by Microsoft, Pylance is a language server for Python that gives me a 
 
 ### 4 - Ruff: Python linter and formatter written in Rust ([link](https://github.com/astral-sh/ruff))
 
-Benchmark results of Ruff against other formatters showed by the author:
+Benchmark results of Ruff against other Python formatters showed by the author:
 
 ![Ruff benchmark](img/ruff-benchmark.png)
 
@@ -64,7 +64,7 @@ I used to utilize `Pylint` alongside `black`, `isort`, and `flake8`, but I've sw
 
 💯 **Pylance** and **Ruff** are the two main reasons why I don't feel the need go back to PyCharm anymore. The auto-complete and error checking just work perfectly, especially when Python's type hints are used. 💯
 
-I use Ruff's [default configuration](https://docs.astral.sh/ruff/configuration/) and added other some rules:
+I use Ruff's [default configuration](https://docs.astral.sh/ruff/configuration/) and with some other rules:
 
 ```toml
 # .pyproject.toml
