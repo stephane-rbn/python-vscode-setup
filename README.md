@@ -18,7 +18,7 @@ If you can relate to any of the above, you are in the right place! I have found 
 
 ### 1 - VSCode editor settings to format on save: 
 
-By default, to open the settings file, press `Ctrl + P` (or `cmd + P` on macOS) and type `Open User Settings (JSON)`. Then, paste the following settings:
+By default, to open the settings file, press `Ctrl + P` (or `cmd + P`) and type `Open User Settings (JSON)`. Then, paste the following settings:
 
 ```json
 "editor.formatOnSave": true,
@@ -44,7 +44,7 @@ By default, to open the settings file, press `Ctrl + P` (or `cmd + P` on macOS) 
 ```
 
 ### 3 - Pylance Official extension ([link](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance))
-Pylance is a language server for Python developed by Microsoft that provides a good experience for developing my FastAPI projects in VSCode (I don't know why it only has 3 stars on the marketplace...).
+Developed by Microsoft, Pylance is a language server for Python that gives me a great experience when developing FastAPI projects in VSCode (I don't know why it only has 3 stars on the marketplace...).
 
 [![Pylance extension](img/pylance-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
