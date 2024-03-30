@@ -75,7 +75,7 @@ This extension is a wrapper around the Ruff formatter. It's a must-have if you w
 
 [![Ruff extension](img/ruff-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
 
-If you have globally installed Ruff via Homebrew, you would need to add the following settings:
+Add the path to the Ruff binary in your settings. If you have globally installed Ruff via Homebrew, you would need to add the following settings:
 
 ```json
 "ruff.path": [
