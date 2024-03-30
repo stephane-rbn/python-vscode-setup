@@ -112,7 +112,7 @@ If you miss the PyCharm inlay hints, you can enable them in VSCode with Pylance 
 
 ### 8 - Error Lens Official extension ([link](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens))
 
-Inspired by Atom (rip), Error Lens is a great extension that highlights errors and warnings inline in your code. If VSCode error squiggles are not enough for you, you should definitely check it out.
+Inspired by Atom (rip), Error Lens is a great extension that highlights errors and warnings inline in your code. If VSCode error squiggles are not enough for you, you should definitely give it a look.
 
 [![Error lens extension](img/error-lens-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
