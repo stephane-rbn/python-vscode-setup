@@ -28,7 +28,7 @@ By default, to open the settings file, press `Ctrl + P` (or `cmd + P` on macOS) 
 },
 ```
 
-### 2 - Python Official extension
+### 2 - Python Official extension ([link](https://marketplace.visualstudio.com/items?itemName=ms-python.python))
 [![Python extension](img/python-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 ```json
@@ -41,8 +41,7 @@ By default, to open the settings file, press `Ctrl + P` (or `cmd + P` on macOS) 
 "python.analysis.autoImportCompletions": true
 ```
 
-### 3 - Pylance Official extension
-
+### 3 - Pylance Official extension ([link](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance))
 Pylance is a language server for Python developed by Microsoft that provides a good experience for my Python development in VSCode when I work on FastAPI projects.
 
 [![Pylance extension](img/pylance-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
