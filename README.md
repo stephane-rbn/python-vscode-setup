@@ -62,7 +62,7 @@ Benchmark results of Ruff against other formatters showed by the author:
 
 I used to utilize `Pylint` alongside `black`, `isort`, and `flake8`, but I've swapped them out for ruff which re-implements the latter three in Rust (check the [FAQ](https://docs.astral.sh/ruff/faq/) for more details).
 
-💯 **Pylance** and **Ruff** are the two main reasons why I don't feel the need go back to PyCharm anymore. The auto-complete and error checking just work perfectly, especially when type hints are used. 💯
+💯 **Pylance** and **Ruff** are the two main reasons why I don't feel the need go back to PyCharm anymore. The auto-complete and error checking just work perfectly, especially when Python's type hints are used. 💯
 
 I use Ruff's [default configuration](https://docs.astral.sh/ruff/configuration/) and added other some rules:
 
@@ -101,7 +101,7 @@ If you don't know what's a debugger, you should definitely check it out!
 
 ![Inlay hints screenshot](img/inlay-hints.png)
 
-If you miss the PyCharm inlay hints, you can enable them in VSCode with Pylance extension by adding the following settings:
+If you miss PyCharm's inlay hints, you can enable them in VSCode with Pylance extension by adding the following settings:
 
 ```json
 "python.analysis.inlayHints.callArgumentNames": "all",
@@ -110,7 +110,7 @@ If you miss the PyCharm inlay hints, you can enable them in VSCode with Pylance 
 "python.analysis.inlayHints.variableTypes": true,
 ```
 
-### 8 - Error Lens Official extension ([link](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens))
+### 8 - Error Lens extension ([link](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens))
 
 Inspired by Atom (rip), Error Lens is a great extension that highlights errors and warnings inline in your code. If VSCode error squiggles are not enough for you, you should definitely give it a look.
 
