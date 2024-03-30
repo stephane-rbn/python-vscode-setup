@@ -18,7 +18,7 @@ If you can relate to any of the above, you are in the right place! I have found 
 
 ### 1 - VSCode editor settings to format on save: 
 
-By default, to open the settings file, press `Ctrl + P` (or `cmd + P`) and type `Open User Settings (JSON)`. Then, paste the following settings:
+By default, to open the settings file, press `Ctrl + Shift + P` (or `cmd + Shift + P`) and type `Open User Settings (JSON)`. Then, paste the following settings:
 
 ```json
 "editor.formatOnSave": true,
