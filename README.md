@@ -12,7 +12,7 @@ If you can relate to any of the above, you are in the right place! I have found 
 
 > Disclaimer 2: Let's make it simple and suppose Docker doesn't exist for now 😇
 
-> Disclaimer 3: I am not a professional developer. I am a Product Manager who codes. This guide is a result of my personal experience. It works for me and I hope it works for you too! 🤜🤛
+> Disclaimer 3: I am not a professional developer. I am a Product Manager who codes. This guide is a result of my personal experience. It works for me and I hope it works for you too! 🤜🤛 (suggestions are welcome!)
 
 ## Python related configuration (essential pack)
 
@@ -28,6 +28,8 @@ By default, to open the settings file, press `Ctrl + P` (or `cmd + P` on macOS) 
 },
 ```
 
+(In this guide, I might have not listed some settings that are already well configured by default)
+
 ### 2 - Python Official extension ([link](https://marketplace.visualstudio.com/items?itemName=ms-python.python))
 [![Python extension](img/python-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
@@ -42,7 +44,7 @@ By default, to open the settings file, press `Ctrl + P` (or `cmd + P` on macOS) 
 ```
 
 ### 3 - Pylance Official extension ([link](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance))
-Pylance is a language server for Python developed by Microsoft that provides a good experience for my Python development in VSCode when I work on FastAPI projects.
+Pylance is a language server for Python developed by Microsoft that provides a good experience for developing my FastAPI projects in VSCode (I don't know why it only has 3 stars on the marketplace...).
 
 [![Pylance extension](img/pylance-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
@@ -52,7 +54,54 @@ Benchmark results of Ruff against other formatters showed by the author:
 
 ![Ruff benchmark](img/ruff-benchmark.png)
 
+> I use [Pipenv](https://github.com/pypa/pipenv) almost for all my projects, so Ruff is added in my Pipfile as a dev dependency and should be the same with [Poetry](https://github.com/python-poetry/poetry).
+
 I used to utilize `Pylint` alongside `black`, `isort`, and `flake8`, but I've swapped them out for ruff which re-implements the latter three in Rust (check the [FAQ](https://docs.astral.sh/ruff/faq/) for more details).
 
+💯 **Pylance** and **Ruff** are the two main reasons why I don't feel the need go back to PyCharm anymore. The auto-complete and error checking just work perfectly, especially when type hints are used. 💯
+
+I use Ruff's [default configuration](https://docs.astral.sh/ruff/configuration/) and added other some rules:
+
+```toml
+# .pyproject.toml
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I001", "S"] # I added "I001" and "S" to the default rules
+```
+
 ### 5 - Ruff Official extension ([link](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff))
+
+This extension is a wrapper around the Ruff formatter. It's a must-have if you want to use Ruff in VSCode.
+
 [![Ruff extension](img/ruff-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
+
+### 6 - Python Debugger Official extension ([link](https://marketplace.visualstudio.com/items?itemName=ms-python.python))
+
+If you don't know what's a debugger, you should definitely check it out!
+
+[![Python Debugger extension](img/python-debugger-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+## Bonuses that makes your life even better
+
+### 7 - Enabling inlay hints (Pylance extension)
+
+![Inlay hints screenshot](img/inlay-hints.png)
+
+If you miss the PyCharm inlay hints, you can enable them in VSCode with Pylance extension by adding the following settings:
+
+```json
+"python.analysis.inlayHints.callArgumentNames": "all",
+"python.analysis.inlayHints.functionReturnTypes": true,
+"python.analysis.inlayHints.pytestParameters": true,
+"python.analysis.inlayHints.variableTypes": true,
+```
+
+### 8 - Error Lens Official extension ([link](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens))
+
+Inspired by Atom (rip), Error Lens is a great extension that highlights errors and warnings inline in your code. If VSCode error squiggles are not enough for you, you should definitely check it out.
+
+[![Error lens extension](img/error-lens-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+[![Error lens screenshot](img/error-lens-screenshot.png)](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+I only use default settings for this extension.
