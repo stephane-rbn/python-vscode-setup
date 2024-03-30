@@ -1,6 +1,6 @@
 # VSCode extensions and settings + other tools
 
-That was me when I attempted to set up my VSCode environment for Python development for the first time. Check the boxes where you can relate:
+Tick the checkboxes where you can relate:
 
 - [ ] PyCharm is great but I miss VSCode lightness and customizability. Let's try to configure it.
 - [ ] I have just configured VSCode for Python development but intellisense/autocomplete/suggestions are not working as expected.
