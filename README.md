@@ -1,4 +1,4 @@
-# VSCode extensions and settings + other tools
+# VSCode essentials for Python development
 
 Tick the checkboxes where you can relate:
 
