@@ -1,21 +1,16 @@
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
-
-- [VSCode essentials for Python development](#vscode-essentials-for-python-development)
-   * [Python related configuration (essential pack)](#python-related-configuration-essential-pack)
-      + [1 - VSCode editor settings to format on save: ](#1-vscode-editor-settings-to-format-on-save)
-      + [2 - Python Official extension (link)](#2-python-official-extension-link)
-      + [3 - Pylance Official extension (link)](#3-pylance-official-extension-link)
-      + [4 - Ruff: Python linter and formatter written in Rust (link)](#4-ruff-python-linter-and-formatter-written-in-rust-link)
-      + [5 - Ruff Official extension (link)](#5-ruff-official-extension-link)
-      + [6 - Python Debugger Official extension (link)](#6-python-debugger-official-extension-link)
-   * [Bonuses that makes your life even better](#bonuses-that-makes-your-life-even-better)
-      + [7 - Enabling inlay hints (Pylance extension)](#7-enabling-inlay-hints-pylance-extension)
-      + [8 - Error Lens extension (link)](#8-error-lens-extension-link)
-
-<!-- TOC end -->
-
-<!-- TOC --><a name="vscode-essentials-for-python-development"></a>
 # VSCode essentials for Python development
+
+* [Python related configuration (essential pack)](#python-related-configuration-essential-pack)
+  + [1 - VSCode editor settings to format on save: ](#1-vscode-editor-settings-to-format-on-save)
+  + [2 - Python Official extension (link)](#2-python-official-extension-link)
+  + [3 - Pylance Official extension (link)](#3-pylance-official-extension-link)
+  + [4 - Ruff: Python linter and formatter written in Rust (link)](#4-ruff-python-linter-and-formatter-written-in-rust-link)
+  + [5 - Ruff Official extension (link)](#5-ruff-official-extension-link)
+  + [6 - Python Debugger Official extension (link)](#6-python-debugger-official-extension-link)
+* [Bonuses that makes your life even better](#bonuses-that-makes-your-life-even-better)
+  + [7 - Enabling inlay hints (Pylance extension)](#7-enabling-inlay-hints-pylance-extension)
+  + [8 - Error Lens extension (link)](#8-error-lens-extension-link)
+
 
 Tick the checkboxes where you can relate:
 
