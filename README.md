@@ -70,10 +70,9 @@ I use Ruff's [default configuration](https://docs.astral.sh/ruff/configuration/)
 # .pyproject.toml
 
 [tool.ruff.lint]
-# "I001" and "S" have been added to the default configuration:
-# I001 replaces isort and S replaces flake8
-select = ["E4", "E7", "E9", "F", "I001", "S"]
+select = ["E4", "E7", "E9", "F", "I001", "S"] # I've added "I001" and "S" to the default rules
 ```
+[I001](https://docs.astral.sh/ruff/rules/unsorted-imports/#unsorted-imports-i001) rule replaces `isort` and [S](https://docs.astral.sh/ruff/rules/#flake8-bandit-s) rules replace [flake8-bandit](https://pypi.org/project/flake8-bandit/) package.
 
 > I use [Pipenv](https://github.com/pypa/pipenv) almost for all my projects, I add Ruff in my Pipfile as a dev dependency. It should be the same with [Poetry](https://github.com/python-poetry/poetry).
 
