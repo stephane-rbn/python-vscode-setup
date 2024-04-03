@@ -73,7 +73,7 @@ Developed by Microsoft, Pylance is a language server for Python that gives me a 
 <!-- TOC --><a name="4-ruff-python-linter-and-formatter-written-in-rust-link"></a>
 ### 4 - Ruff: Python linter and formatter written in Rust ([link](https://github.com/astral-sh/ruff))
 
-Benchmark results of Ruff against other Python formatters showed by the author:
+Benchmark results of Ruff against other Python linters showed by the author:
 
 ![Ruff benchmark](img/ruff-benchmark.png)
 
