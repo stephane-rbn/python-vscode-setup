@@ -1,7 +1,7 @@
-# VSCode essentials for Python development
+# VS Code essentials for Python development
 
 * [Python related configuration (essential pack)](#python-related-configuration-essential-pack)
-  + [1 - VSCode editor settings to format on save: ](#1-vscode-editor-settings-to-format-on-save)
+  + [1 - VS Code editor settings to format on save: ](#1-vscode-editor-settings-to-format-on-save)
   + [2 - Python Official extension (link)](#2-python-official-extension-link)
   + [3 - Pylance Official extension (link)](#3-pylance-official-extension-link)
   + [4 - Ruff: Python linter and formatter written in Rust (link)](#4-ruff-python-linter-and-formatter-written-in-rust-link)
@@ -14,13 +14,13 @@
 
 Tick the checkboxes where you can relate:
 
-- [ ] PyCharm is great but I miss VSCode lightness and customizability. Let's try to configure it.
-- [ ] I have just configured VSCode for Python development but intellisense/autocomplete/suggestions are not working as expected.
+- [ ] PyCharm is great but I miss VS Code lightness and customizability. Let's try to configure it.
+- [ ] I have just configured VS Code for Python development but intellisense/autocomplete/suggestions are not working as expected.
 - [ ] I have watched a lot of YouTube videos and read a lot of articles but it's still not working. I'm missing PyCharm...
 
 If you can relate to any of the above, you are in the right place! I have found a solution that works for me. I hope it works for you too.
 
-> Disclaimer 1: I won't be covering the installation of Python or VSCode. I assume you have them installed 👌
+> Disclaimer 1: I won't be covering the installation of Python or VS Code. I assume you have them installed 👌
 
 > Disclaimer 2: I have decided to not mention extensions that haven't been updated in over 3 years.
 
@@ -30,7 +30,7 @@ If you can relate to any of the above, you are in the right place! I have found 
 ## Python related configuration (essential pack)
 
 <!-- TOC --><a name="1-vscode-editor-settings-to-format-on-save"></a>
-### 1 - VSCode editor settings to format on save: 
+### 1 - VS Code editor settings to format on save: 
 
 By default, to open the settings file, press `Ctrl + Shift + P` (or `cmd + Shift + P`) and type `Open User Settings (JSON)`. Then, paste the following settings:
 
@@ -60,7 +60,7 @@ By default, to open the settings file, press `Ctrl + Shift + P` (or `cmd + Shift
 
 <!-- TOC --><a name="3-pylance-official-extension-link"></a>
 ### 3 - Pylance Official extension ([link](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance))
-Developed by Microsoft, Pylance is a language server for Python that gives me a great experience when developing FastAPI projects in VSCode (I don't know why it only has 3 stars on the marketplace...).
+Developed by Microsoft, Pylance is a language server for Python that gives me a great experience when developing FastAPI projects in VS Code (I don't know why it only has 3 stars on the marketplace...).
 
 [![Pylance extension](img/pylance-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
@@ -96,7 +96,7 @@ select = ["E4", "E7", "E9", "F", "I001", "S"] # I've added "I001" and "S" to the
 <!-- TOC --><a name="5-ruff-official-extension-link"></a>
 ### 5 - Ruff Official extension ([link](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff))
 
-This extension is a wrapper around the Ruff formatter. It's a must-have if you want to use Ruff in VSCode.
+This extension is a wrapper around the Ruff formatter. It's a must-have if you want to use Ruff in VS Code.
 
 [![Ruff extension](img/ruff-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
 
@@ -123,7 +123,7 @@ If you don't know what's a debugger, you should definitely check it out!
 
 ![Inlay hints screenshot](img/inlay-hints.png)
 
-If you miss PyCharm's inlay hints, you can enable them in VSCode with Pylance extension by adding the following settings:
+If you miss PyCharm's inlay hints, you can enable them in VS Code with Pylance extension by adding the following settings:
 
 ```json
 "python.analysis.inlayHints.callArgumentNames": "all",
@@ -135,7 +135,7 @@ If you miss PyCharm's inlay hints, you can enable them in VSCode with Pylance ex
 <!-- TOC --><a name="8-error-lens-extension-link"></a>
 ### 8 - Error Lens extension ([link](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens))
 
-Inspired by Atom (rip), Error Lens is a great extension that highlights errors and warnings inline in your code. If VSCode error squiggles are not enough for you, you should definitely give it a look.
+Inspired by Atom (rip), Error Lens is a great extension that highlights errors and warnings inline in your code. If VS Code error squiggles are not enough for you, you should definitely give it a look.
 
 [![Error lens extension](img/error-lens-vscode-extension.png)](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
